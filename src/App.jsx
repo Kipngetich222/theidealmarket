@@ -37,6 +37,7 @@ import Terms from "./pages/Terms";
 import PaymentConfirmation from "./pages/PaymentConfirmation";
 import Login from "./components/Auth/Login";
 import Signup from "./components/Auth/Signup";
+import { Outlet } from "react-router-dom";
 
 // function App() {
 //   return (
@@ -221,19 +222,18 @@ function App() {
   );
 }
 
-// New PrivateRouteWithLayout component
-function PrivateRouteWithLayout({ children }) {
+function PrivateRouteWithLayout() {
   return (
-    <>
-      <PrivateRoute>
+    <PrivateRoute>
+      <div className="flex flex-col min-h-screen">
         <SideNavbar />
         <main className="flex-grow pt-16 pb-16">
-          {children}
+          <Outlet /> {/* This is where nested routes render */}
         </main>
         <Footer />
-      </PrivateRoute>
-    </>
-  )
+      </div>
+    </PrivateRoute>
+  );
 }
 
 export default App;

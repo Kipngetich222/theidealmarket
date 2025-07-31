@@ -245,9 +245,9 @@ export default function SideNavbar() {
           <span className="text-xl font-bold text-primary-600">
             theIdealmarket
           </span>
-          <span className="text-xs ml-1 bg-primary-100 text-primary-800 px-2 py-1 rounded">
+          {/* <span className="text-xs ml-1 bg-primary-100 text-primary-800 px-2 py-1 rounded">
             .shop
-          </span>
+          </span> */}
         </div>
 
         {/* Desktop Navigation Links (shows on tablet and larger) */}
