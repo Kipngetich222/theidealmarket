@@ -1,4 +1,5 @@
 import { useAuth } from "../context/AuthContext";
+import BalanceCard from "../components/Dashboard/BalanceCard";
 import { motion } from "framer-motion";
 import {
   FiUser,
@@ -46,39 +47,7 @@ export default function Account() {
             </div>
           </div>
 
-          <div className="bg-gray-50 dark:bg-dark-600 rounded-lg p-6">
-            <h2 className="text-lg font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
-              <FiDollarSign className="mr-2" />
-              Account Balance
-            </h2>
-
-            <div className="flex items-end mb-4">
-              <span className="text-3xl font-bold text-gray-800 dark:text-white">
-                $0.00
-              </span>
-              <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">
-                USD
-              </span>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <motion.button
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.97 }}
-                className="bg-primary-600 hover:bg-primary-700 text-white py-2 px-4 rounded-lg text-sm font-medium"
-              >
-                Add Funds
-              </motion.button>
-
-              <motion.button
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.97 }}
-                className="bg-gray-200 hover:bg-gray-300 dark:bg-dark-500 dark:hover:bg-dark-400 text-gray-800 dark:text-white py-2 px-4 rounded-lg text-sm font-medium"
-              >
-                Request Refund
-              </motion.button>
-            </div>
-          </div>
+          <BalanceCard />
         </div>
 
         <div>
