@@ -106,15 +106,19 @@ export default function Payment() {
           <FiArrowLeft className="mr-2" />
           Back to Marketplace
         </button>
-        
+
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Payment Details</h2>
-            
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              Payment Details
+            </h2>
+
             <div className="bg-gray-50 rounded-lg p-4 mb-6">
               {isAddingFunds ? (
                 <>
-                  <h3 className="font-medium text-gray-700 mb-2">Add Funds to Account</h3>
+                  <h3 className="font-medium text-gray-700 mb-2">
+                    Add Funds to Account
+                  </h3>
                   <div className="mb-4">
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       Amount to Add (USD)
@@ -132,18 +136,26 @@ export default function Payment() {
                 </>
               ) : (
                 <>
-                  <h3 className="font-medium text-gray-700 mb-2">Your Cart ({cartItems.length})</h3>
+                  <h3 className="font-medium text-gray-700 mb-2">
+                    Your Cart ({cartItems.length})
+                  </h3>
                   {cartItems.length > 0 ? (
                     <ul className="divide-y divide-gray-200">
                       {cartItems.map((item) => (
                         <li key={item.id} className="py-3">
                           <div className="flex justify-between items-start">
                             <div>
-                              <p className="font-medium text-gray-800">{item.name}</p>
-                              <p className="text-sm text-gray-600">{item.vendor}</p>
+                              <p className="font-medium text-gray-800">
+                                {item.name}
+                              </p>
+                              <p className="text-sm text-gray-600">
+                                {item.vendor}
+                              </p>
                             </div>
                             <div className="flex items-center">
-                              <span className="font-bold text-gray-900 mr-4">{item.price}</span>
+                              <span className="font-bold text-gray-900 mr-4">
+                                {item.price}
+                              </span>
                               <button
                                 onClick={() => removeFromCart(item.id)}
                                 className="text-red-500 hover:text-red-700"
@@ -158,75 +170,157 @@ export default function Payment() {
                   ) : (
                     <p className="text-gray-500">Your cart is empty</p>
                   )}
-                  
+
                   <div className="mt-4 pt-4 border-t border-gray-200">
                     <div className="flex justify-between">
                       <span className="text-gray-600 font-medium">Total:</span>
-                      <span className="font-bold text-gray-900">${totalAmount.toFixed(2)}</span>
+                      <span className="font-bold text-gray-900">
+                        ${totalAmount.toFixed(2)}
+                      </span>
                     </div>
                   </div>
                 </>
               )}
-              
+
               <div className="mt-4 ">
                 <AnimatedButton
                   onClick={() => setIsAddingFunds(!isAddingFunds)}
                   className="text-primary-600 hover:text-primary-800 text-sm"
                 >
-                  {isAddingFunds ? '← Back to Cart' : 'Add Funds to Account here'}
+                  {isAddingFunds
+                    ? "← Back to Cart"
+                    : "Add Funds to Account here"}
                 </AnimatedButton>
               </div>
             </div>
+
             
             <div className="mb-6">
-              <h3 className="font-medium text-gray-700 mb-3">Select Payment Method:</h3>
-              
+              <h3 className="font-medium text-gray-700 dark:text-gray-300 mb-3">
+                Select Payment Method:
+              </h3>
+
               <div className="grid grid-cols-2 gap-3">
-                <AnimatedButton
-                  onClick={() => setSelectedMethod('bitcoin')}
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setSelectedMethod("bitcoin")}
                   className={`flex items-center justify-center p-3 rounded-lg border-2 ${
-                    selectedMethod === 'bitcoin' ? 'border-bitcoin bg-bitcoin/10 text-bitcoin' : 'border-gray-300'
+                    selectedMethod === "bitcoin"
+                      ? "border-bitcoin bg-bitcoin/10"
+                      : "border-gray-300 dark:border-dark-500"
                   }`}
                 >
-                  <FaBitcoin className="text-2xl mr-2" />
-                  Bitcoin
-                </AnimatedButton>
-                
-                <AnimatedButton
-                  onClick={() => setSelectedMethod('ethereum')}
+                  <FaBitcoin
+                    className={`text-2xl mr-2 ${
+                      selectedMethod === "bitcoin"
+                        ? "text-bitcoin"
+                        : "text-gray-500 dark:text-gray-400"
+                    }`}
+                  />
+                  <span
+                    className={
+                      selectedMethod === "bitcoin"
+                        ? "font-medium text-bitcoin"
+                        : "text-gray-700 dark:text-gray-300"
+                    }
+                  >
+                    Bitcoin
+                  </span>
+                </motion.button>
+
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setSelectedMethod("ethereum")}
                   className={`flex items-center justify-center p-3 rounded-lg border-2 ${
-                    selectedMethod === 'ethereum' ? 'border-ethereum bg-ethereum/10 text-ethereum' : 'border-gray-300'
+                    selectedMethod === "ethereum"
+                      ? "border-ethereum bg-ethereum/10"
+                      : "border-gray-300 dark:border-dark-500"
                   }`}
                 >
-                  <FaEthereum className="text-2xl mr-2" />
-                  Ethereum
-                </AnimatedButton>
-                
-                <AnimatedButton
-                  onClick={() => setSelectedMethod('usdt')}
+                  <FaEthereum
+                    className={`text-2xl mr-2 ${
+                      selectedMethod === "ethereum"
+                        ? "text-ethereum"
+                        : "text-gray-500 dark:text-gray-400"
+                    }`}
+                  />
+                  <span
+                    className={
+                      selectedMethod === "ethereum"
+                        ? "font-medium text-ethereum"
+                        : "text-gray-700 dark:text-gray-300"
+                    }
+                  >
+                    Ethereum
+                  </span>
+                </motion.button>
+
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setSelectedMethod("usdt")}
                   className={`flex items-center justify-center p-3 rounded-lg border-2 ${
-                    selectedMethod === 'usdt' ? 'border-usdt bg-usdt/10 text-usdt' : 'border-gray-300'
+                    selectedMethod === "usdt"
+                      ? "border-usdt bg-usdt/10"
+                      : "border-gray-300 dark:border-dark-500"
                   }`}
                 >
-                  <SiTether className="text-2xl mr-2" />
-                  USDT
-                </AnimatedButton>
-                
-                <AnimatedButton
-                  onClick={() => setSelectedMethod('solana')}
+                  <SiTether
+                    className={`text-2xl mr-2 ${
+                      selectedMethod === "usdt"
+                        ? "text-usdt"
+                        : "text-gray-500 dark:text-gray-400"
+                    }`}
+                  />
+                  <span
+                    className={
+                      selectedMethod === "usdt"
+                        ? "font-medium text-usdt"
+                        : "text-gray-700 dark:text-gray-300"
+                    }
+                  >
+                    USDT
+                  </span>
+                </motion.button>
+
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setSelectedMethod("solana")}
                   className={`flex items-center justify-center p-3 rounded-lg border-2 ${
-                    selectedMethod === 'solana' ? 'border-solana bg-solana/10 text-solana' : 'border-gray-300'
+                    selectedMethod === "solana"
+                      ? "border-solana bg-solana/10"
+                      : "border-gray-300 dark:border-dark-500"
                   }`}
                 >
-                  <SiSolana className="text-2xl mr-2" />
-                  Solana
-                </AnimatedButton>
+                  <SiSolana
+                    className={`text-2xl mr-2 ${
+                      selectedMethod === "solana"
+                        ? "text-solana"
+                        : "text-gray-500 dark:text-gray-400"
+                    }`}
+                  />
+                  <span
+                    className={
+                      selectedMethod === "solana"
+                        ? "font-medium text-solana"
+                        : "text-gray-700 dark:text-gray-300"
+                    }
+                  >
+                    Solana
+                  </span>
+                </motion.button>
               </div>
             </div>
-            
-            {selectedMethod === 'bitcoin' && (
+
+            {selectedMethod === "bitcoin" && (
               <div className="mb-6">
-                <label htmlFor="txId" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="txId"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                >
                   Bitcoin Transaction ID (Optional)
                 </label>
                 <div className="flex">
@@ -236,40 +330,57 @@ export default function Payment() {
                     value={txId}
                     onChange={(e) => setTxId(e.target.value)}
                     placeholder="Enter TXID to verify payment"
-                    className="flex-1 bg-white border border-gray-300 rounded-l-md px-3 py-2 text-sm text-gray-900"
+                    className="flex-1 bg-white dark:bg-dark-600 border border-gray-300 dark:border-dark-500 rounded-l-md px-3 py-2 text-sm text-gray-900 dark:text-white"
                   />
-                  <AnimatedButton
+                  <button
                     onClick={verifyTransaction}
                     disabled={!txId.trim() || isVerifying}
-                    className="rounded-r-md"
+                    className={`px-3 py-2 rounded-r-md text-sm ${
+                      !txId.trim() || isVerifying
+                        ? "bg-gray-300 dark:bg-dark-500 text-gray-500 dark:text-gray-400 cursor-not-allowed"
+                        : "bg-primary-600 hover:bg-primary-700 text-white"
+                    }`}
                   >
-                    {isVerifying ? 'Verifying...' : 'Verify'}
-                  </AnimatedButton>
+                    {isVerifying ? "Verifying..." : "Verify"}
+                  </button>
                 </div>
                 {verificationResult !== null && (
-                  <p className={`mt-2 text-sm ${
-                    verificationResult ? 'text-green-600' : 'text-red-600'
-                  }`}>
-                    {verificationResult ? '✅ Payment verified successfully!' : '❌ Could not verify payment. Please check the TXID or try again later.'}
+                  <p
+                    className={`mt-2 text-sm ${
+                      verificationResult
+                        ? "text-green-600 dark:text-green-400"
+                        : "text-red-600 dark:text-red-400"
+                    }`}
+                  >
+                    {verificationResult
+                      ? "✅ Payment verified successfully!"
+                      : "❌ Could not verify payment. Please check the TXID or try again later."}
                   </p>
                 )}
               </div>
             )}
-            
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-              <h3 className="font-medium text-yellow-800 mb-2">Important Notice</h3>
-              <p className="text-sm text-yellow-700">
-                Send only {selectedMethod.toUpperCase()} to this address. Sending other assets may result in permanent loss.
+
+            <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4">
+              <h3 className="font-medium text-yellow-800 dark:text-yellow-200 mb-2">
+                Important Notice
+              </h3>
+              <p className="text-sm text-yellow-700 dark:text-yellow-300">
+                Send only {selectedMethod.toUpperCase()} to this address.
+                Sending other assets may result in permanent loss.
               </p>
             </div>
+
+            {/* -------------------------------------------------------------------------------------------------- */}
           </div>
-          
+
           <div className="md:w-1/2">
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="font-bold text-gray-800 mb-4">Send Payment To:</h3>
-              
+
               <div className="mb-6">
-                <label className="block text-sm font-medium text-gray-700 mb-1">Wallet Address:</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Wallet Address:
+                </label>
                 <div className="flex">
                   <input
                     type="text"
@@ -278,29 +389,39 @@ export default function Payment() {
                     className="flex-1 bg-white border border-gray-300 rounded-l-md px-3 py-2 text-sm text-gray-900"
                   />
                   <AnimatedButton
-                    onClick={() => copyToClipboard(walletAddresses[selectedMethod])}
+                    onClick={() =>
+                      copyToClipboard(walletAddresses[selectedMethod])
+                    }
                     className="rounded-r-md"
                   >
                     {copied ? <FiCheck /> : <FiCopy />}
                   </AnimatedButton>
                 </div>
               </div>
-              
+
               <div className="mb-6">
-                <label className="block text-sm font-medium text-gray-700 mb-1">Amount to Send:</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Amount to Send:
+                </label>
                 <div className="flex items-center bg-white border border-gray-300 rounded-md px-3 py-2">
                   <span className="text-gray-500 mr-2">$</span>
                   <input
                     type="text"
                     readOnly
-                    value={isAddingFunds ? fundAmount || '0.00' : totalAmount.toFixed(2)}
+                    value={
+                      isAddingFunds
+                        ? fundAmount || "0.00"
+                        : totalAmount.toFixed(2)
+                    }
                     className="flex-1 bg-transparent text-gray-900 outline-none"
                   />
                 </div>
               </div>
-              
+
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-                <h3 className="font-medium text-blue-800 mb-2">Payment Instructions</h3>
+                <h3 className="font-medium text-blue-800 mb-2">
+                  Payment Instructions
+                </h3>
                 <ol className="text-sm text-blue-700 list-decimal pl-5 space-y-1">
                   <li>Copy the wallet address above</li>
                   <li>Send exact amount from your wallet</li>
@@ -308,34 +429,37 @@ export default function Payment() {
                   <li>Your account will be credited automatically</li>
                 </ol>
               </div>
-              
+
               <AnimatedButton
                 onClick={handlePaymentSent}
                 disabled={
-                  isAddingFunds 
-                    ? !fundAmount || parseFloat(fundAmount) <= 0 
+                  isAddingFunds
+                    ? !fundAmount || parseFloat(fundAmount) <= 0
                     : cartItems.length === 0
                 }
                 className="w-full py-3 px-4"
               >
-                {isAddingFunds ? 'Add Funds' : 'Complete Purchase'}
+                {isAddingFunds ? "Add Funds" : "Complete Purchase"}
               </AnimatedButton>
-              
-              <div className="mt-4 text-center">
-                <AnimatedButton
+
+             
+              <div className="mt-4 justify-center flex">
+                <motion.a
                   href="https://t.me/idealmarket_support"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-[#0088CC] hover:bg-[#0077B5] px-4 py-2"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="flex items-center bg-[#0088CC] text-white px-3 py-1 rounded text-sm font-medium"
                 >
-                  <FaTelegram className="mr-2" />
-                  Need Help? Contact on Telegram
-                </AnimatedButton>
+                  <FaTelegram className="mr-1" />
+                  Need help? Contact on Telegram
+                </motion.a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
