@@ -3,6 +3,7 @@ import Guidelines from "../components/Dashboard/Guidelines";
 import { useAuth } from "../context/AuthContext";
 import { motion } from "framer-motion";
 
+
 export default function Dashboard() {
   const { user } = useAuth();
 
@@ -25,6 +26,7 @@ export default function Dashboard() {
       <BalanceCard />
 
       <Guidelines />
+
     </div>
   );
 }
