@@ -71,8 +71,8 @@ export default function PaymentConfirmation() {
               </h3>
               <div className="mt-1 text-sm text-yellow-700 dark:text-yellow-300">
                 <p>
-                  Your purchase will be processed within 1-2 hours. You'll
-                  receive a confirmation email once completed.
+                  Your purchase will be processed within 1-3 hours. You'll
+                  receive a confirmation message once completed.
                 </p>
               </div>
             </div>
