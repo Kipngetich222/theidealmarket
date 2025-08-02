@@ -1,42 +1,115 @@
+import { useCart } from "../../context/CartContext";
 import Table from "../UI/Table";
 import { useNavigate } from "react-router-dom";
 
 const paypalData = [
   {
+    id: "pp-1",
     name: "PayPal Account (Verified)",
     vendor: "PayMaster",
     includes: "Email Access, Fullz Info",
     balance: "$1,000 - $3,000",
     price: "$200",
     status: "Available",
-    action: "Buy Now",
   },
   {
+    id: "pp-2",
     name: "PayPal Account (Unverified)",
     vendor: "QuickPay",
     includes: "Email Access",
     balance: "$500 - $1,500",
     price: "$100",
     status: "Available",
-    action: "Buy Now",
   },
   {
+    id: "pp-3",
     name: "PayPal Business Account",
     vendor: "BizPay",
     includes: "Full Access, Documents",
     balance: "$2,000 - $5,000",
     price: "$300",
     status: "Sold Out",
-    action: "Buy Now",
   },
   {
+    id: "pp-4",
     name: "PayPal Limited Account",
     vendor: "Limitless",
     includes: "Bypass Methods",
     balance: "$500 - $2,000",
     price: "$150",
     status: "Available",
-    action: "Buy Now",
+  },
+  {
+    id: "pp-5",
+    name: "PayPal Aged Account",
+    vendor: "OldPay",
+    includes: "3+ Years Old",
+    balance: "$3,000 - $7,000",
+    price: "$400",
+    status: "Available",
+  },
+  {
+    id: "pp-6",
+    name: "PayPal High Limit",
+    vendor: "HighPay",
+    includes: "$50k+ Weekly Limit",
+    balance: "$5,000 - $15,000",
+    price: "$500",
+    status: "Available",
+  },
+  {
+    id: "pp-7",
+    name: "PayPal Fullz Package",
+    vendor: "FullzPay",
+    includes: "SSN+DL+Selfie",
+    balance: "$2,500 - $6,000",
+    price: "$350",
+    status: "Sold Out",
+  },
+  {
+    id: "pp-8",
+    name: "PayPal Government Account",
+    vendor: "GovPay",
+    includes: "Verified, High Balance",
+    balance: "$10,000 - $25,000",
+    price: "$700",
+    status: "Available",
+  },
+  {
+    id: "pp-9",
+    name: "PayPal Premium Account",
+    vendor: "PayPro",
+    includes: "Full Access, Phone Number",
+    balance: "$4,000 - $10,000",
+    price: "$450",
+    status: "Available",
+  },
+  {
+    id: "pp-10",
+    name: "PayPal Business Elite",
+    vendor: "BizElite",
+    includes: "Documents, High Limit",
+    balance: "$15,000 - $40,000",
+    price: "$800",
+    status: "Available",
+  },
+  {
+    id: "pp-11",
+    name: "PayPal Crypto Enabled",
+    vendor: "CryptoPay",
+    includes: "BTC/ETH Access",
+    balance: "$2,000 - $8,000",
+    price: "$300",
+    status: "Available",
+  },
+  {
+    id: "pp-12",
+    name: "PayPal Student Account",
+    vendor: "EduPay",
+    includes: "Verified Student",
+    balance: "$500 - $2,500",
+    price: "$150",
+    status: "Available",
   },
 ];
 
@@ -51,6 +124,7 @@ const headers = [
 ];
 
 export default function Paypal() {
+  const { addToCart } = useCart();
   const navigate = useNavigate();
 
   const handleBuyClick = (item) => {
@@ -58,7 +132,8 @@ export default function Paypal() {
       alert("This item is currently sold out. Please check back later.");
       return;
     }
-    navigate("/payment", { state: { item } });
+    addToCart(item);
+    navigate("/payment");
   };
 
   return (
@@ -66,7 +141,20 @@ export default function Paypal() {
       <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">
         PayPal Accounts
       </h1>
-      <Table headers={headers} data={paypalData} onBuyClick={handleBuyClick} />
+      <Table
+        headers={headers}
+        data={paypalData.map((item) => ({
+          ...item,
+          action: (
+            <button
+              onClick={() => handleBuyClick(item)}
+              className="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded"
+            >
+              Add to Cart
+            </button>
+          ),
+        }))}
+      />
     </div>
   );
 }
