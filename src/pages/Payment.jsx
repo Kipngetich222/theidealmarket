@@ -430,7 +430,7 @@ function Payment() {
                 </h3>
                 <ol className="text-sm text-blue-700 list-decimal pl-5 space-y-1">
                   <li>Copy the wallet address above</li>
-                  <li>Send exact amount from your wallet</li>
+                  <li>Send exact amount from your wallet to the address before completing purchase</li>
                   <li>Wait for blockchain confirmation (usually 10-30 mins)</li>
                   <li>Your account will be credited automatically</li>
                 </ol>
