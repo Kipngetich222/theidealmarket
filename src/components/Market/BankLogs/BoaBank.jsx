@@ -113,15 +113,17 @@ const boaData = [
   },
 ];
 
+
 const headers = [
-  "Account Type",
-  "Vendor",
-  "Includes",
-  "Balance",
-  "Price",
-  "Status",
-  "Action",
+  { label: "Logs Name", key: "name" },
+  { label: "Vendor", key: "vendor" },
+  { label: "Includes", key: "includes" },
+  { label: "Balance", key: "balance" },
+  { label: "Price", key: "price" },
+  { label: "Status", key: "status" },
+  { label: "Action", key: "action" },
 ];
+
 
 export default function BoaBank() {
   const { addToCart } = useCart();

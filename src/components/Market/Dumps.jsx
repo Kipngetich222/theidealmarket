@@ -155,16 +155,19 @@ const dumpsData = [
   },
 ];
 
+
+
 const headers = [
-  "Bin",
-  "Type",
-  "Track",
-  "Balance",
-  "Country",
-  "Price",
-  "Status",
-  "Action",
+  { label: "Bin", key: "bin" },
+  { label: "Type", key: "type" },
+  { label: "Track", key: "track" },
+  { label: "Balance", key: "balance" },
+  { label: "Country", key: "country" },
+  { label: "Price", key: "price" },
+   { label: "Status", key: "status" },
+  { label: "Action", key: "action" },
 ];
+
 
 export default function Dumps() {
   const { addToCart } = useCart();
