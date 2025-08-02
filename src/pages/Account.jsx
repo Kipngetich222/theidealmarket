@@ -209,7 +209,7 @@ export default function Account() {
           <div className="bg-gray-50 rounded-lg p-6 mb-6">
             <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center">
               <FiBell className="mr-2" />
-              Recent Confirmations
+              Recent Purchase Confirmations
             </h2>
             
             <div className="space-y-4">
