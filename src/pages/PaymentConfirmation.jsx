@@ -60,7 +60,7 @@ export default function PaymentConfirmation() {
           </div>
         </div>
 
-        <div className="mt-6 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
+        {/* <div className="mt-6 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
           <div className="flex items-start">
             <div className="flex-shrink-0">
               <FiClock className="h-5 w-5 text-yellow-500 dark:text-yellow-400" />
@@ -73,6 +73,46 @@ export default function PaymentConfirmation() {
                 <p>
                   Your purchase will be processed within 1-3 hours. You'll
                   receive a confirmation message once completed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        {/* <div className="mt-6 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
+          <div className="flex items-start">
+            <div className="flex-shrink-0">
+              <FiClock className="h-5 w-5 text-yellow-500 dark:text-yellow-400" />
+            </div>
+            <div className="ml-3">
+              <h3 className="text-sm font-medium text-yellow-800 dark:text-yellow-200">
+                Processing Time
+              </h3>
+              <div className="mt-1 text-sm text-yellow-700 dark:text-yellow-300">
+                <p>
+                  Your purchase will be processed within 1-3 hours. You'll
+                  receive a confirmation message in your account within 5-10
+                  minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="mt-6 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
+          <div className="flex items-start">
+            <div className="flex-shrink-0">
+              <FiClock className="h-5 w-5 text-yellow-500 dark:text-yellow-400" />
+            </div>
+            <div className="ml-3">
+              <h3 className="text-sm font-medium text-yellow-800 dark:text-yellow-200">
+                Processing Time
+              </h3>
+              <div className="mt-1 text-sm text-yellow-700 dark:text-yellow-300">
+                <p>
+                  Your purchase confirmation will appear in your account page
+                  within 5 minutes. You'll receive a notification when it's
+                  ready.
                 </p>
               </div>
             </div>
