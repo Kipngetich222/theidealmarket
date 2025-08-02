@@ -7,7 +7,8 @@ const bmoData = [
     id: "bmo-1",
     name: "BMO Premium Account",
     vendor: "CanadaBanker",
-    includes: "Full Access, Statements",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $10,000 - $50,000",
     price: "$500 CAD",
     status: "Available",
@@ -16,7 +17,8 @@ const bmoData = [
     id: "bmo-2",
     name: "BMO Business Account",
     vendor: "BMOBiz",
-    includes: "Documents, Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $20,000 - $80,000",
     price: "$700 CAD",
     status: "Available",
@@ -25,7 +27,8 @@ const bmoData = [
     id: "bmo-3",
     name: "BMO Student Account",
     vendor: "EduBMO",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $1,000 - $5,000",
     price: "$200 CAD",
     status: "Available",
@@ -34,7 +37,8 @@ const bmoData = [
     id: "bmo-4",
     name: "BMO Aged Account",
     vendor: "OldBMO",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $15,000 - $75,000",
     price: "$700 CAD",
     status: "Available",
@@ -43,7 +47,8 @@ const bmoData = [
     id: "bmo-5",
     name: "BMO High Limit",
     vendor: "LimitBMO",
-    includes: "$100k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $50,000 - $200,000",
     price: "$1,200 CAD",
     status: "Available",
@@ -52,7 +57,8 @@ const bmoData = [
     id: "bmo-6",
     name: "BMO Fullz Package",
     vendor: "FullzBMO",
-    includes: "SIN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $5,000 - $25,000",
     price: "$400 CAD",
     status: "Sold Out",
@@ -61,7 +67,8 @@ const bmoData = [
     id: "bmo-7",
     name: "BMO Elite Account",
     vendor: "EliteBMO",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $7,000 - $35,000",
     price: "$450 CAD",
     status: "Available",
@@ -70,7 +77,8 @@ const bmoData = [
     id: "bmo-8",
     name: "BMO Business Elite",
     vendor: "BizEliteBMO",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $75,000 - $300,000",
     price: "$1,500 CAD",
     status: "Available",
@@ -79,7 +87,8 @@ const bmoData = [
     id: "bmo-9",
     name: "BMO Savings Account",
     vendor: "SaveBMO",
-    includes: "High Yield Savings",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $10,000 - $50,000",
     price: "$450 CAD",
     status: "Available",
@@ -88,7 +97,8 @@ const bmoData = [
     id: "bmo-10",
     name: "BMO Private Client",
     vendor: "PrivateBMO",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $100,000 - $500,000",
     price: "$2,000 CAD",
     status: "Available",
@@ -97,7 +107,8 @@ const bmoData = [
     id: "bmo-11",
     name: "BMO Government Account",
     vendor: "GovBMO",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $25,000 - $150,000",
     price: "$1,000 CAD",
     status: "Available",
@@ -106,7 +117,8 @@ const bmoData = [
     id: "bmo-12",
     name: "BMO Crypto Enabled",
     vendor: "CryptoBMO",
-    includes: "BTC/ETH Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $10,000 - $50,000",
     price: "$600 CAD",
     status: "Available",

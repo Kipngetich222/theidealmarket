@@ -7,7 +7,8 @@ const tdCanadaData = [
     id: "tdc-1",
     name: "TD Canada All-Inclusive",
     vendor: "CanadaBanker",
-    includes: "Full Access, Investment",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $12,000 - $60,000",
     price: "$600 CAD",
     status: "Available",
@@ -16,7 +17,8 @@ const tdCanadaData = [
     id: "tdc-2",
     name: "TD Canada Business",
     vendor: "TDBizCanada",
-    includes: "Documents, Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $20,000 - $90,000",
     price: "$800 CAD",
     status: "Available",
@@ -25,7 +27,8 @@ const tdCanadaData = [
     id: "tdc-3",
     name: "TD Canada Student",
     vendor: "EduTDCanada",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $1,000 - $5,000",
     price: "$200 CAD",
     status: "Available",
@@ -34,7 +37,8 @@ const tdCanadaData = [
     id: "tdc-4",
     name: "TD Canada Aged Account",
     vendor: "OldTDCanada",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $15,000 - $75,000",
     price: "$700 CAD",
     status: "Available",
@@ -43,7 +47,8 @@ const tdCanadaData = [
     id: "tdc-5",
     name: "TD Canada High Limit",
     vendor: "LimitTDCanada",
-    includes: "$100k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $50,000 - $200,000",
     price: "$1,200 CAD",
     status: "Available",
@@ -52,7 +57,8 @@ const tdCanadaData = [
     id: "tdc-6",
     name: "TD Canada Fullz Package",
     vendor: "FullzTDCanada",
-    includes: "SIN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $5,000 - $25,000",
     price: "$400 CAD",
     status: "Sold Out",
@@ -61,7 +67,8 @@ const tdCanadaData = [
     id: "tdc-7",
     name: "TD Canada Elite Account",
     vendor: "EliteTDCanada",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $7,000 - $35,000",
     price: "$450 CAD",
     status: "Available",
@@ -70,7 +77,8 @@ const tdCanadaData = [
     id: "tdc-8",
     name: "TD Canada Business Elite",
     vendor: "BizEliteTDCanada",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $75,000 - $300,000",
     price: "$1,500 CAD",
     status: "Available",
@@ -79,7 +87,8 @@ const tdCanadaData = [
     id: "tdc-9",
     name: "TD Canada Savings Account",
     vendor: "SaveTDCanada",
-    includes: "High Yield Savings",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $10,000 - $50,000",
     price: "$450 CAD",
     status: "Available",
@@ -88,7 +97,8 @@ const tdCanadaData = [
     id: "tdc-10",
     name: "TD Canada Private Client",
     vendor: "PrivateTDCanada",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $100,000 - $500,000",
     price: "$2,000 CAD",
     status: "Available",
@@ -97,7 +107,8 @@ const tdCanadaData = [
     id: "tdc-11",
     name: "TD Canada Government Account",
     vendor: "GovTDCanada",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $25,000 - $150,000",
     price: "$1,000 CAD",
     status: "Available",
@@ -106,7 +117,8 @@ const tdCanadaData = [
     id: "tdc-12",
     name: "TD Canada Crypto Enabled",
     vendor: "CryptoTDCanada",
-    includes: "BTC/ETH Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $10,000 - $50,000",
     price: "$600 CAD",
     status: "Available",

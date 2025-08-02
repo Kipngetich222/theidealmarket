@@ -19,7 +19,7 @@ export default function Dashboard() {
           Hello, {user?.username || "User"} 👋
         </h1>
         <p className="text-gray-600 dark:text-gray-300 mt-2">
-          Welcome back to your theIdealmarket dashboard
+          Welcome back to your Dashboard
         </p>
       </motion.div>
 

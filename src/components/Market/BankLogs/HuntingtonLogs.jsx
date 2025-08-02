@@ -7,7 +7,8 @@ const huntingtonData = [
     id: "ht-1",
     name: "Huntington Premier Account",
     vendor: "MidwestBanker",
-    includes: "Full Access, Statements",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$350",
     status: "Available",
@@ -16,7 +17,8 @@ const huntingtonData = [
     id: "ht-2",
     name: "Huntington Business Account",
     vendor: "BizHunt",
-    includes: "Documents, Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $40,000",
     price: "$500",
     status: "Available",
@@ -25,7 +27,8 @@ const huntingtonData = [
     id: "ht-3",
     name: "Huntington Perks Account",
     vendor: "PerksBanker",
-    includes: "Full Access, Rewards",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$7,000 - $30,000",
     price: "$400",
     status: "Available",
@@ -34,7 +37,8 @@ const huntingtonData = [
     id: "ht-4",
     name: "Huntington Government Account",
     vendor: "GovHunt",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$800",
     status: "Available",
@@ -43,7 +47,8 @@ const huntingtonData = [
     id: "ht-5",
     name: "Huntington Student Account",
     vendor: "EduHunt",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$500 - $3,000",
     price: "$150",
     status: "Available",
@@ -52,7 +57,8 @@ const huntingtonData = [
     id: "ht-6",
     name: "Huntington Aged Account",
     vendor: "OldHunt",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$8,000 - $40,000",
     price: "$500",
     status: "Available",
@@ -61,7 +67,8 @@ const huntingtonData = [
     id: "ht-7",
     name: "Huntington High Limit",
     vendor: "LimitHunt",
-    includes: "$75k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$1,000",
     status: "Available",
@@ -70,7 +77,8 @@ const huntingtonData = [
     id: "ht-8",
     name: "Huntington Fullz Package",
     vendor: "FullzHunt",
-    includes: "SSN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$4,000 - $20,000",
     price: "$350",
     status: "Sold Out",
@@ -79,7 +87,8 @@ const huntingtonData = [
     id: "ht-9",
     name: "Huntington Elite Account",
     vendor: "EliteHunt",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$6,000 - $30,000",
     price: "$400",
     status: "Available",
@@ -88,7 +97,8 @@ const huntingtonData = [
     id: "ht-10",
     name: "Huntington Business Elite",
     vendor: "BizEliteHunt",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$40,000 - $150,000",
     price: "$1,200",
     status: "Available",
@@ -97,7 +107,8 @@ const huntingtonData = [
     id: "ht-11",
     name: "Huntington Savings Account",
     vendor: "SaveHunt",
-    includes: "High Yield Savings",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$450",
     status: "Available",
@@ -106,7 +117,8 @@ const huntingtonData = [
     id: "ht-12",
     name: "Huntington Private Client",
     vendor: "PrivateHunt",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$50,000 - $250,000",
     price: "$1,500",
     status: "Available",

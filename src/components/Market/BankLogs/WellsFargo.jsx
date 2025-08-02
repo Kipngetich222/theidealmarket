@@ -7,7 +7,8 @@ const wellsFargoData = [
     id: "wf-1",
     name: "Wells Fargo Platinum Account",
     vendor: "WestCoastBanker",
-    includes: "Full Access, Statements",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$550",
     status: "Available",
@@ -16,7 +17,8 @@ const wellsFargoData = [
     id: "wf-2",
     name: "Wells Fargo Business Account",
     vendor: "WellsBiz",
-    includes: "Documents, Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$800",
     status: "Available",
@@ -25,7 +27,8 @@ const wellsFargoData = [
     id: "wf-3",
     name: "Wells Fargo Basic Account",
     vendor: "SimpleWells",
-    includes: "Online Banking",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$2,000 - $10,000",
     price: "$300",
     status: "Sold Out",
@@ -34,7 +37,8 @@ const wellsFargoData = [
     id: "wf-4",
     name: "Wells Fargo Private Client",
     vendor: "PrivateWells",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$100,000 - $500,000",
     price: "$2,500",
     status: "Available",
@@ -43,7 +47,8 @@ const wellsFargoData = [
     id: "wf-5",
     name: "Wells Fargo Student Account",
     vendor: "EduWells",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$500 - $3,000",
     price: "$150",
     status: "Available",
@@ -52,7 +57,8 @@ const wellsFargoData = [
     id: "wf-6",
     name: "Wells Fargo Aged Account",
     vendor: "OldWells",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$700",
     status: "Available",
@@ -61,7 +67,8 @@ const wellsFargoData = [
     id: "wf-7",
     name: "Wells Fargo High Limit",
     vendor: "LimitWells",
-    includes: "$150k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$50,000 - $250,000",
     price: "$1,500",
     status: "Available",
@@ -70,7 +77,8 @@ const wellsFargoData = [
     id: "wf-8",
     name: "Wells Fargo Fullz Package",
     vendor: "FullzWells",
-    includes: "SSN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$7,000 - $35,000",
     price: "$450",
     status: "Sold Out",
@@ -79,7 +87,8 @@ const wellsFargoData = [
     id: "wf-9",
     name: "Wells Fargo Elite Account",
     vendor: "EliteWells",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$550",
     status: "Available",
@@ -88,7 +97,8 @@ const wellsFargoData = [
     id: "wf-10",
     name: "Wells Fargo Business Elite",
     vendor: "BizEliteWells",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$75,000 - $300,000",
     price: "$1,800",
     status: "Available",
@@ -97,7 +107,8 @@ const wellsFargoData = [
     id: "wf-11",
     name: "Wells Fargo Savings Account",
     vendor: "SaveWells",
-    includes: "High Yield Savings",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$600",
     status: "Available",
@@ -106,7 +117,8 @@ const wellsFargoData = [
     id: "wf-12",
     name: "Wells Fargo Government Account",
     vendor: "GovWells",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$25,000 - $150,000",
     price: "$1,000",
     status: "Available",
@@ -115,7 +127,8 @@ const wellsFargoData = [
     id: "wf-13",
     name: "Wells Fargo Crypto Enabled",
     vendor: "CryptoWells",
-    includes: "BTC/ETH Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",

@@ -7,7 +7,8 @@ const amexData = [
     id: "am-1",
     name: "Amex Platinum",
     vendor: "CardMaster",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$400",
     status: "Available",
@@ -16,7 +17,8 @@ const amexData = [
     id: "am-2",
     name: "Amex Gold",
     vendor: "EliteCards",
-    includes: "Fullz Info, BIN",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$300",
     status: "Sold Out",
@@ -25,7 +27,8 @@ const amexData = [
     id: "am-3",
     name: "Amex Centurion",
     vendor: "BlackCard",
-    includes: "Full Info, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$50,000 - $250,000",
     price: "$1,500",
     status: "Available",
@@ -34,7 +37,8 @@ const amexData = [
     id: "am-4",
     name: "Amex Business Platinum",
     vendor: "BizCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$600",
     status: "Available",
@@ -43,7 +47,8 @@ const amexData = [
     id: "am-5",
     name: "Amex Delta SkyMiles",
     vendor: "TravelCards",
-    includes: "Full Info, Miles",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$350",
     status: "Available",
@@ -52,7 +57,8 @@ const amexData = [
     id: "am-6",
     name: "Amex Blue Cash",
     vendor: "CashBackCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$3,000 - $15,000",
     price: "$250",
     status: "Available",
@@ -61,7 +67,8 @@ const amexData = [
     id: "am-7",
     name: "Amex Green",
     vendor: "EcoCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$2,000 - $10,000",
     price: "$200",
     status: "Sold Out",
@@ -70,7 +77,8 @@ const amexData = [
     id: "am-8",
     name: "Amex Business Gold",
     vendor: "BizGold",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$450",
     status: "Available",
@@ -79,7 +87,8 @@ const amexData = [
     id: "am-9",
     name: "Amex Hilton Honors",
     vendor: "HotelCards",
-    includes: "Full Info, Points",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$350",
     status: "Available",
@@ -88,7 +97,8 @@ const amexData = [
     id: "am-10",
     name: "Amex Marriott Bonvoy",
     vendor: "HotelCards",
-    includes: "Full Info, Points",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$350",
     status: "Available",
@@ -97,7 +107,8 @@ const amexData = [
     id: "am-11",
     name: "Amex Cash Magnet",
     vendor: "CashBackCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$3,000 - $15,000",
     price: "$250",
     status: "Available",
@@ -106,7 +117,8 @@ const amexData = [
     id: "am-12",
     name: "Amex Everyday",
     vendor: "DailyCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$2,000 - $10,000",
     price: "$200",
     status: "Available",

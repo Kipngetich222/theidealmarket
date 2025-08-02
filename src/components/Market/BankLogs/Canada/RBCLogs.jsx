@@ -7,7 +7,8 @@ const rbcData = [
     id: "rbc-1",
     name: "RBC Signature Account",
     vendor: "RoyalBanker",
-    includes: "Full Access, Investment",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $15,000 - $75,000",
     price: "$650 CAD",
     status: "Available",
@@ -16,7 +17,8 @@ const rbcData = [
     id: "rbc-2",
     name: "RBC Business Account",
     vendor: "RBCBiz",
-    includes: "Documents, Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $25,000 - $100,000",
     price: "$850 CAD",
     status: "Available",
@@ -25,7 +27,8 @@ const rbcData = [
     id: "rbc-3",
     name: "RBC Student Account",
     vendor: "EduRBC",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $1,000 - $5,000",
     price: "$200 CAD",
     status: "Available",
@@ -34,7 +37,8 @@ const rbcData = [
     id: "rbc-4",
     name: "RBC Aged Account",
     vendor: "OldRBC",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $20,000 - $100,000",
     price: "$800 CAD",
     status: "Available",
@@ -43,7 +47,8 @@ const rbcData = [
     id: "rbc-5",
     name: "RBC High Limit",
     vendor: "LimitRBC",
-    includes: "$150k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $75,000 - $300,000",
     price: "$1,500 CAD",
     status: "Available",
@@ -52,7 +57,8 @@ const rbcData = [
     id: "rbc-6",
     name: "RBC Fullz Package",
     vendor: "FullzRBC",
-    includes: "SIN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $7,000 - $35,000",
     price: "$450 CAD",
     status: "Sold Out",
@@ -61,7 +67,8 @@ const rbcData = [
     id: "rbc-7",
     name: "RBC Elite Account",
     vendor: "EliteRBC",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $10,000 - $50,000",
     price: "$550 CAD",
     status: "Available",
@@ -70,7 +77,8 @@ const rbcData = [
     id: "rbc-8",
     name: "RBC Business Elite",
     vendor: "BizEliteRBC",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $100,000 - $400,000",
     price: "$1,800 CAD",
     status: "Available",
@@ -79,7 +87,8 @@ const rbcData = [
     id: "rbc-9",
     name: "RBC Savings Account",
     vendor: "SaveRBC",
-    includes: "High Yield Savings",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $15,000 - $75,000",
     price: "$600 CAD",
     status: "Available",
@@ -88,7 +97,8 @@ const rbcData = [
     id: "rbc-10",
     name: "RBC Private Client",
     vendor: "PrivateRBC",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $150,000 - $750,000",
     price: "$2,500 CAD",
     status: "Available",
@@ -97,7 +107,8 @@ const rbcData = [
     id: "rbc-11",
     name: "RBC Government Account",
     vendor: "GovRBC",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $30,000 - $200,000",
     price: "$1,200 CAD",
     status: "Available",
@@ -106,7 +117,8 @@ const rbcData = [
     id: "rbc-12",
     name: "RBC Crypto Enabled",
     vendor: "CryptoRBC",
-    includes: "BTC/ETH Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "CAD $15,000 - $75,000",
     price: "$700 CAD",
     status: "Available",

@@ -7,7 +7,8 @@ const visaData = [
     id: "vs-1",
     name: "Visa Platinum",
     vendor: "CardMaster",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $15,000",
     price: "$200",
     status: "Available",
@@ -16,7 +17,8 @@ const visaData = [
     id: "vs-2",
     name: "Visa Signature",
     vendor: "EliteCards",
-    includes: "Fullz Info, BIN",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$350",
     status: "Available",
@@ -25,7 +27,8 @@ const visaData = [
     id: "vs-3",
     name: "Visa Infinite",
     vendor: "InfiniteCards",
-    includes: "Full Info, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$500",
     status: "Available",
@@ -34,7 +37,8 @@ const visaData = [
     id: "vs-4",
     name: "Visa Business",
     vendor: "BizCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$400",
     status: "Available",
@@ -43,7 +47,8 @@ const visaData = [
     id: "vs-5",
     name: "Visa Gold",
     vendor: "GoldCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$3,000 - $15,000",
     price: "$250",
     status: "Available",
@@ -52,7 +57,8 @@ const visaData = [
     id: "vs-6",
     name: "Visa Standard",
     vendor: "StandardCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$1,000 - $5,000",
     price: "$150",
     status: "Sold Out",
@@ -61,7 +67,8 @@ const visaData = [
     id: "vs-7",
     name: "Visa Black",
     vendor: "BlackCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$600",
     status: "Available",
@@ -70,7 +77,8 @@ const visaData = [
     id: "vs-8",
     name: "Visa Titanium",
     vendor: "TitaniumCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$500",
     status: "Available",
@@ -79,7 +87,8 @@ const visaData = [
     id: "vs-9",
     name: "Visa Cash Back",
     vendor: "CashBackCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$3,000 - $15,000",
     price: "$220",
     status: "Available",
@@ -88,7 +97,8 @@ const visaData = [
     id: "vs-10",
     name: "Visa Travel",
     vendor: "TravelCards",
-    includes: "Full Info, Miles",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$350",
     status: "Available",
@@ -97,7 +107,8 @@ const visaData = [
     id: "vs-11",
     name: "Visa Business Platinum",
     vendor: "BizPlatinum",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$650",
     status: "Available",
@@ -106,7 +117,8 @@ const visaData = [
     id: "vs-12",
     name: "Visa Business Gold",
     vendor: "BizGold",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$450",
     status: "Available",
@@ -115,7 +127,8 @@ const visaData = [
     id: "vs-13",
     name: "Visa Student",
     vendor: "StudentCards",
-    includes: "Full Info, CVV",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$500 - $2,500",
     price: "$120",
     status: "Available",

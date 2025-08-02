@@ -26,7 +26,10 @@ export default function Table({ headers, data }) {
                 const cellValue = row[header.key];
 
                 return (
-                  <td key={cellIndex} className="px-6 py-4 whitespace-nowrap">
+                  <td
+                    key={cellIndex}
+                    className="px-6 py-4 whitespace-pre-wrap break-words max-w-xs"
+                  >
                     {header.key === "status" ? (
                       <StatusBadge status={cellValue} />
                     ) : React.isValidElement(cellValue) ? (

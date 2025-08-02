@@ -7,7 +7,8 @@ const citiData = [
     id: "ct-1",
     name: "CitiGold Account",
     vendor: "PremiumBanker",
-    includes: "Full Access, Investment",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",
@@ -16,7 +17,8 @@ const citiData = [
     id: "ct-2",
     name: "Citi Basic Account",
     vendor: "SimpleAccess",
-    includes: "Online Banking",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$1,500 - $7,000",
     price: "$250",
     status: "Sold Out",
@@ -25,7 +27,8 @@ const citiData = [
     id: "ct-3",
     name: "Citi Priority Account",
     vendor: "PriorityBanker",
-    includes: "Full Access, Statements",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$700",
     status: "Available",
@@ -34,7 +37,8 @@ const citiData = [
     id: "ct-4",
     name: "Citi Government Account",
     vendor: "GovBanker",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$900",
     status: "Available",
@@ -43,7 +47,8 @@ const citiData = [
     id: "ct-5",
     name: "Citi Student Account",
     vendor: "EduBanker",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$500 - $3,000",
     price: "$150",
     status: "Available",
@@ -52,7 +57,8 @@ const citiData = [
     id: "ct-6",
     name: "Citi Aged Account",
     vendor: "OldBanker",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",
@@ -61,7 +67,8 @@ const citiData = [
     id: "ct-7",
     name: "Citi High Limit",
     vendor: "LimitBanker",
-    includes: "$100k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$25,000 - $150,000",
     price: "$1,200",
     status: "Available",
@@ -70,7 +77,8 @@ const citiData = [
     id: "ct-8",
     name: "Citi Fullz Package",
     vendor: "FullzBanker",
-    includes: "SSN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$400",
     status: "Sold Out",
@@ -79,7 +87,8 @@ const citiData = [
     id: "ct-9",
     name: "Citi Elite Account",
     vendor: "EliteBanker",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$7,000 - $35,000",
     price: "$450",
     status: "Available",
@@ -88,7 +97,8 @@ const citiData = [
     id: "ct-10",
     name: "Citi Business Elite",
     vendor: "BizElite",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$50,000 - $200,000",
     price: "$1,500",
     status: "Available",
@@ -97,7 +107,8 @@ const citiData = [
     id: "ct-11",
     name: "Citi Crypto Enabled",
     vendor: "CryptoBanker",
-    includes: "BTC/ETH Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",
@@ -106,7 +117,8 @@ const citiData = [
     id: "ct-12",
     name: "Citi Private Bank",
     vendor: "PrivateBanker",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$100,000 - $500,000",
     price: "$2,500",
     status: "Available",

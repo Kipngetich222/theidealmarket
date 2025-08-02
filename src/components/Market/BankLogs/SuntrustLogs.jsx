@@ -7,7 +7,8 @@ const suntrustData = [
     id: "st-1",
     name: "SunTrust Premium Account",
     vendor: "SouthernBanker",
-    includes: "Full Access, Statements",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$7,000 - $30,000",
     price: "$400",
     status: "Available",
@@ -16,7 +17,8 @@ const suntrustData = [
     id: "st-2",
     name: "SunTrust Basic Account",
     vendor: "SimpleSun",
-    includes: "Online Banking",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$1,000 - $5,000",
     price: "$200",
     status: "Sold Out",
@@ -25,7 +27,8 @@ const suntrustData = [
     id: "st-3",
     name: "SunTrust Business Account",
     vendor: "BizSun",
-    includes: "Documents, Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",
@@ -34,7 +37,8 @@ const suntrustData = [
     id: "st-4",
     name: "SunTrust Government Account",
     vendor: "GovSun",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$800",
     status: "Available",
@@ -43,7 +47,8 @@ const suntrustData = [
     id: "st-5",
     name: "SunTrust Student Account",
     vendor: "EduSun",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$500 - $3,000",
     price: "$150",
     status: "Available",
@@ -52,7 +57,8 @@ const suntrustData = [
     id: "st-6",
     name: "SunTrust Aged Account",
     vendor: "OldSun",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$8,000 - $40,000",
     price: "$500",
     status: "Available",
@@ -61,7 +67,8 @@ const suntrustData = [
     id: "st-7",
     name: "SunTrust High Limit",
     vendor: "LimitSun",
-    includes: "$75k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$1,000",
     status: "Available",
@@ -70,7 +77,8 @@ const suntrustData = [
     id: "st-8",
     name: "SunTrust Fullz Package",
     vendor: "FullzSun",
-    includes: "SSN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$4,000 - $20,000",
     price: "$350",
     status: "Sold Out",
@@ -79,7 +87,8 @@ const suntrustData = [
     id: "st-9",
     name: "SunTrust Elite Account",
     vendor: "EliteSun",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$6,000 - $30,000",
     price: "$400",
     status: "Available",
@@ -88,7 +97,8 @@ const suntrustData = [
     id: "st-10",
     name: "SunTrust Business Elite",
     vendor: "BizEliteSun",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$40,000 - $150,000",
     price: "$1,200",
     status: "Available",
@@ -97,7 +107,8 @@ const suntrustData = [
     id: "st-11",
     name: "SunTrust Savings Account",
     vendor: "SaveSun",
-    includes: "High Yield Savings",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$450",
     status: "Available",
@@ -106,7 +117,8 @@ const suntrustData = [
     id: "st-12",
     name: "SunTrust Private Client",
     vendor: "PrivateSun",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$50,000 - $250,000",
     price: "$1,500",
     status: "Available",

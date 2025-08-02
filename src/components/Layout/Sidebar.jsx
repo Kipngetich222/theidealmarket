@@ -241,7 +241,7 @@ export default function SideNavbar() {
         }
         onClick={closeAllDropdowns}
       >
-        Paxful
+        Chime
       </NavLink>
 
       {/* Account - Placed near Logout */}

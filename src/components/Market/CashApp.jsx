@@ -7,7 +7,8 @@ const cashAppData = [
     id: "ca-1",
     name: "CashApp Account (Verified)",
     vendor: "CashKing",
-    includes: "Email Access, Fullz Info",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$1,000 - $3,000",
     price: "$150",
     status: "Available",
@@ -16,7 +17,8 @@ const cashAppData = [
     id: "ca-2",
     name: "CashApp Account (Unverified)",
     vendor: "QuickCash",
-    includes: "Email Access",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$500 - $1,500",
     price: "$80",
     status: "Available",
@@ -25,7 +27,8 @@ const cashAppData = [
     id: "ca-3",
     name: "CashApp Bitcoin Wallet",
     vendor: "CryptoDealer",
-    includes: "Full Access",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "0.05 - 0.1 BTC",
     price: "$200",
     status: "Sold Out",
@@ -34,7 +37,8 @@ const cashAppData = [
     id: "ca-4",
     name: "CashApp Business Account",
     vendor: "BizSeller",
-    includes: "Full Access, Documents",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$2,000 - $5,000",
     price: "$250",
     status: "Available",
@@ -43,7 +47,8 @@ const cashAppData = [
     id: "ca-5",
     name: "CashApp Premium Account",
     vendor: "CashPro",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$3,000 - $7,000",
     price: "$300",
     status: "Available",
@@ -52,7 +57,8 @@ const cashAppData = [
     id: "ca-6",
     name: "CashApp BTC Wallet (Large)",
     vendor: "BitcoinKing",
-    includes: "Full Access",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "0.2 - 0.5 BTC",
     price: "$800",
     status: "Available",
@@ -61,7 +67,8 @@ const cashAppData = [
     id: "ca-7",
     name: "CashApp Aged Account",
     vendor: "OldMoney",
-    includes: "2+ Years Old",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$5,000 - $10,000",
     price: "$400",
     status: "Available",
@@ -70,7 +77,8 @@ const cashAppData = [
     id: "ca-8",
     name: "CashApp High Limit",
     vendor: "Limitless",
-    includes: "$50k+ Weekly Limit",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$10,000 - $20,000",
     price: "$500",
     status: "Sold Out",
@@ -79,7 +87,8 @@ const cashAppData = [
     id: "ca-9",
     name: "CashApp Fullz Package",
     vendor: "FullzMaster",
-    includes: "SSN+DL+Selfie",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$2,500 - $7,500",
     price: "$350",
     status: "Available",
@@ -88,7 +97,8 @@ const cashAppData = [
     id: "ca-10",
     name: "CashApp Government Account",
     vendor: "GovSeller",
-    includes: "Verified, High Balance",
+    includes:
+      "Cash app BTC enable, fully verified, email access, Max transaction limit per day is high",
     balance: "$15,000 - $30,000",
     price: "$700",
     status: "Available",

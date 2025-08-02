@@ -7,7 +7,8 @@ const tdBankData = [
     id: "td-1",
     name: "TD Bank Premium Account",
     vendor: "NorthEastBanker",
-    includes: "Full Access, Statements",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$8,000 - $35,000",
     price: "$450",
     status: "Available",
@@ -16,7 +17,8 @@ const tdBankData = [
     id: "td-2",
     name: "TD Bank Business Account",
     vendor: "TDBiz",
-    includes: "Documents, Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $60,000",
     price: "$650",
     status: "Available",
@@ -25,7 +27,8 @@ const tdBankData = [
     id: "td-3",
     name: "TD Bank Convenience Account",
     vendor: "EasyBanker",
-    includes: "Basic Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$1,000 - $5,000",
     price: "$200",
     status: "Available",
@@ -34,7 +37,8 @@ const tdBankData = [
     id: "td-4",
     name: "TD Bank Government Account",
     vendor: "GovTD",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$1,000",
     status: "Available",
@@ -43,7 +47,8 @@ const tdBankData = [
     id: "td-5",
     name: "TD Bank Student Account",
     vendor: "EduTD",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$500 - $3,000",
     price: "$150",
     status: "Available",
@@ -52,7 +57,8 @@ const tdBankData = [
     id: "td-6",
     name: "TD Bank Aged Account",
     vendor: "OldTD",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",
@@ -61,7 +67,8 @@ const tdBankData = [
     id: "td-7",
     name: "TD Bank High Limit",
     vendor: "LimitTD",
-    includes: "$100k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$25,000 - $150,000",
     price: "$1,200",
     status: "Available",
@@ -70,7 +77,8 @@ const tdBankData = [
     id: "td-8",
     name: "TD Bank Fullz Package",
     vendor: "FullzTD",
-    includes: "SSN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$400",
     status: "Sold Out",
@@ -79,7 +87,8 @@ const tdBankData = [
     id: "td-9",
     name: "TD Bank Elite Account",
     vendor: "EliteTD",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$7,000 - $35,000",
     price: "$450",
     status: "Available",
@@ -88,7 +97,8 @@ const tdBankData = [
     id: "td-10",
     name: "TD Bank Business Elite",
     vendor: "BizEliteTD",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$50,000 - $200,000",
     price: "$1,500",
     status: "Available",
@@ -97,7 +107,8 @@ const tdBankData = [
     id: "td-11",
     name: "TD Bank Savings Account",
     vendor: "SaveTD",
-    includes: "High Yield Savings",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$450",
     status: "Available",
@@ -106,7 +117,8 @@ const tdBankData = [
     id: "td-12",
     name: "TD Bank Private Client",
     vendor: "PrivateTD",
-    includes: "Full Access, Investments",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$75,000 - $300,000",
     price: "$1,800",
     status: "Available",

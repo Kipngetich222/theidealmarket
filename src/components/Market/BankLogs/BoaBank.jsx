@@ -7,7 +7,8 @@ const boaData = [
     id: "boa-1",
     name: "BOA Account (Premium)",
     vendor: "BankKing",
-    includes: "Online Access, Fullz Info",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $15,000",
     price: "$300",
     status: "Available",
@@ -16,7 +17,8 @@ const boaData = [
     id: "boa-2",
     name: "BOA Account (Business)",
     vendor: "BizAccess",
-    includes: "Full Access, Documents",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$500",
     status: "Available",
@@ -25,7 +27,8 @@ const boaData = [
     id: "boa-3",
     name: "BOA Account (Basic)",
     vendor: "QuickBank",
-    includes: "Online Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$1,000 - $5,000",
     price: "$200",
     status: "Sold Out",
@@ -34,7 +37,8 @@ const boaData = [
     id: "boa-4",
     name: "BOA Platinum Account",
     vendor: "PlatinumBank",
-    includes: "Full Access, Statements",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$15,000 - $75,000",
     price: "$700",
     status: "Available",
@@ -43,7 +47,8 @@ const boaData = [
     id: "boa-5",
     name: "BOA Government Account",
     vendor: "GovBank",
-    includes: "Verified, High Balance",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$20,000 - $100,000",
     price: "$900",
     status: "Available",
@@ -52,7 +57,8 @@ const boaData = [
     id: "boa-6",
     name: "BOA Student Account",
     vendor: "EduBank",
-    includes: "Verified Student",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$500 - $3,000",
     price: "$150",
     status: "Available",
@@ -61,7 +67,8 @@ const boaData = [
     id: "boa-7",
     name: "BOA Aged Account",
     vendor: "OldBank",
-    includes: "5+ Years Old",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",
@@ -70,7 +77,8 @@ const boaData = [
     id: "boa-8",
     name: "BOA High Limit",
     vendor: "LimitBank",
-    includes: "$100k+ Daily Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$25,000 - $150,000",
     price: "$1,200",
     status: "Available",
@@ -79,7 +87,8 @@ const boaData = [
     id: "boa-9",
     name: "BOA Fullz Package",
     vendor: "FullzBank",
-    includes: "SSN+DL+Selfie",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$5,000 - $25,000",
     price: "$400",
     status: "Sold Out",
@@ -88,7 +97,8 @@ const boaData = [
     id: "boa-10",
     name: "BOA Elite Account",
     vendor: "EliteBank",
-    includes: "Full Access, Phone Number",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$7,000 - $35,000",
     price: "$450",
     status: "Available",
@@ -97,7 +107,8 @@ const boaData = [
     id: "boa-11",
     name: "BOA Business Elite",
     vendor: "BizElite",
-    includes: "Documents, High Limit",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$50,000 - $200,000",
     price: "$1,500",
     status: "Available",
@@ -106,7 +117,8 @@ const boaData = [
     id: "boa-12",
     name: "BOA Crypto Enabled",
     vendor: "CryptoBank",
-    includes: "BTC/ETH Access",
+    includes:
+      "Online Access, Email Access, DOB, Cookies, Q&A Gender, SSN, Address, Acct & RN license NO, Zelle ON",
     balance: "$10,000 - $50,000",
     price: "$600",
     status: "Available",
